@@ -1,5 +1,2 @@
 
-assets
-index.html
-script.js
-style.css
+Final-project-Treact
