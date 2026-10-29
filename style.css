@@ -37,6 +37,24 @@ figure {
   padding: 96px 0;
 }
 
+.get-started-btn {
+  display: inline-block;   
+  width: auto;             
+  padding: 12px 24px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  flex: 0 0 auto;         
+}
+
+.parent-container {
+  display: flex;
+  align-items: flex-start; 
+}
+
+
 a {
   display: inline;
   text-decoration: none;
