@@ -1321,6 +1321,13 @@ MOBILE RESPONSIVENESS ↓
 
 */
 
+
+/*
+
+extra large screens
+
+*/
+
 @media (max-width: 1280px) {
   header .row {
     align-items: flex-end;
@@ -1371,6 +1378,12 @@ h1 {
 .testimonials__description {
   width: calc(100% -40%);
 }
+
+/*
+
+Desktop
+
+*/
 
 @media (max-width: 1024px) {
   .nav__links {
@@ -1477,6 +1490,13 @@ h1 {
   footer {
     padding: 80px 32px;
   }
+  
+  /*
+
+  tablet
+
+  */
+  
   @media (max-width: 768px) {
     .features {
       justify-content: center;
@@ -1560,6 +1580,13 @@ h1 {
     .footer__socials--link:first-child {
       margin-left: 0px;
     }
+
+    /*
+
+    phones
+
+    */
+    
     @media (max-width: 640px) {
       .section__title {
         line-height: 1.25;
