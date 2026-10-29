@@ -1468,6 +1468,11 @@ footer * {
     margin: 0;
     text-align: center;
   }
+   .header__email--btn {
+    margin: 16px 0 0;
+    border-radius: 500px;
+    padding: 12px 32px;
+  }
 
   .step {
     flex-direction: column;
