@@ -37,7 +37,7 @@ figure {
   padding: 96px 0;
 }
 
-.get-started-btn {
+.header__email--btn{
   display: inline-block;   
   width: auto;             
   padding: 12px 24px;
