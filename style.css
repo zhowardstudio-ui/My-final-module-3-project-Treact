@@ -1538,8 +1538,9 @@ footer * {
   }
 
   .header__email--btn {
-    width: 100%;
     margin: 16px 0 0;
+    border-radius: 500px;
+    padding: 12px 32px;
   }
 
   .start__buttons {
