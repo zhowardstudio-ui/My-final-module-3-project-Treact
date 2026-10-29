@@ -37,16 +37,41 @@ figure {
   padding: 96px 0;
 }
 
-.header__email--btn{
-  display: inline-block;   
-  width: auto;             
-  padding: 12px 24px;
-  background: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  font-weight: 600;
-  flex: 0 0 auto;         
+.header__email {
+  position: relative;
+  width: 100%;
+  max-width: 448px;
+  height: 68px;
+}
+
+.header__email--input {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 500px;
+  border: 2px solid rgb(229, 231, 235);
+  padding: 20px 190px 20px 32px;
+  color: rgb(36, 62, 99);
+  font-size: 16px;
+  font-weight: 500;
+  transition: border-color 300ms;
+}
+
+.header__email--btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 160px;
+  height: calc(100% - 16px);
+  border-radius: 500px;
+  border: none;
+  background-color: #6415ff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  transition: all 300ms ease;
+  z-index: 2;
 }
 
 .parent-container {
