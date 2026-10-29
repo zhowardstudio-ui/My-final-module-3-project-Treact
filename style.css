@@ -1531,7 +1531,17 @@ footer * {
   }
 
   .start__buttons {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .start__button {
+    width: auto;
+    max-width: 100%;
+    min-width: 220px;
+    text-align: center;
   }
 
   .start__button:nth-child(1) {
