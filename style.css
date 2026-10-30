@@ -1296,16 +1296,55 @@ footer * {
 
 /* RESPONSIVE */
 @media (max-width: 1280px) {
-  header .row {
+   header .row {
     align-items: flex-end;
   }
-  .header__img--wrapper{
-    display:flex;
-    justify-content: flex-end;
 }
-  .header__customers{
-    padding right: 64px;
-  }
+
+.steps__grid {
+  height: 5rem;
+  width: 5rem;
+  bottom: -50px;
+}
+
+h1 {
+  font-size: 36px;
+  color: #1a202c;
+  line-height: 1.25;
+}
+
+.header__description--para {
+  font-size: 16px;
+}
+
+.header__customers {
+  padding-right: 64px;
+}
+
+.header__img--wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__img {
+  max-width: 512px;
+}
+.plan__button {
+  max-width: none;
+}
+
+.plan__bottom {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.testimonials__img {
+  width: 40%;
+}
+
+.testimonials__description {
+  width: calc(100% -40%);
+}
 
 @media (max-width: 1024px) {
   .nav__links {
