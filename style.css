@@ -1544,9 +1544,11 @@ footer * {
   .quality__description,
   .steps__description,
   .values__description,
-  .testimonials__description{
-    max-width: 40%;
-    text-align: right;}
+  .testimonials__description,
+  .features__description,
+  .testimonial__para,
+  .value;{
+    text-align: left;}
 
 
 
